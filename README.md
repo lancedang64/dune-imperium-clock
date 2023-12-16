@@ -19,9 +19,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/lancedang64/dune-imperium-clock">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  <!-- <a href="https://github.com/lancedang64/dune-imperium-clock"> -->
+    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+  <!-- </a> -->
 
 <h3 align="center">Dune Imperium Clock</h3>
 
@@ -72,7 +72,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 This is my personal project for a Dune Imperium Clock for offline boardgame sessions.
 Hope you guys enjoy it!
@@ -179,7 +179,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - lancedang64@gmail.com
+Email: lancedang64@gmail.com
 
 Project Link: [https://github.com/lancedang64/dune-imperium-clock](https://github.com/lancedang64/dune-imperium-clock)
 
