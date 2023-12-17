@@ -97,28 +97,35 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Have these installed on your machine
+- Git
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/lancedang64/dune-imperium-clock.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+2. You need to have `npm` installed, please follow the step below 
+  (following the [official NPM documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).)
+
+    Install `nvm` - node version manager 
+    ```sh
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    ```
+    or
+    ```sh
+    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    ```
+    Follow the instruction after running either of the commands above successfully. Afterwards,
+    ```sh
+    nvm install node # "node" is an alias for the latest version
+    ```
+
+3. Then run the below command to install the project dependencies / `node_modules`
+    ```sh
+    npm install
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
