@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { MenuOption } from '@/components/MenuOption';
+import { MainMenu } from '@/components/MainMenu';
 // import { AppMode } from '@/models';
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
     return (
         <View style={styles.container}>
             <StatusBar style="auto" />
-            <MenuOption appMode="DuneUprising" />
+            <MainMenu />
         </View>
     );
 }
