@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pressable } from 'react-native';
+import { Pressable, Text } from 'react-native';
 
 import { styles } from './MenuOption.styles';
 
@@ -18,7 +18,7 @@ interface ComponentProps {
 export const MenuOption = ({ appMode, onPress }: ComponentProps) => {
     return (
         <Pressable style={styles.component} onPress={onPress}>
-            {MENU_OPTION_DICT[appMode]}
+            <Text>{MENU_OPTION_DICT[appMode]}</Text>
         </Pressable>
     );
 };
