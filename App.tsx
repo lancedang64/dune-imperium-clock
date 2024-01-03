@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { MainMenu } from '@/components/MainMenu';
+import { MainMenu } from '@/components/core/MainMenu';
 import { BACKGROUND_COLOR } from '@/styling';
 
 export default function App() {

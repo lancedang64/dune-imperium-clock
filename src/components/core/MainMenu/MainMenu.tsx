@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 
 import { styles } from './MainMenu.styles';
 import { MenuOption } from './MenuOption';
-import { GameView } from '../GameView';
+import { GameView } from '../../common/GameView';
 
 import { AppMode } from '@/models';
 
