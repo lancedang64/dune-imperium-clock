@@ -18,4 +18,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         width: '100%',
     },
+    sideHeaderButtons: {
+        width: 150,
+    },
 });

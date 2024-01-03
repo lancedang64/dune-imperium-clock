@@ -15,9 +15,9 @@ export const GameView = ({ onPressBack, onPressPause, children }: ComponentProps
     return (
         <View style={styles.component}>
             <View style={styles.header}>
-                <Button onPress={onPressBack} title="Back" />
+                <Button style={styles.sideHeaderButtons} onPress={onPressBack} title="Back" />
                 <Button onPress={onPressPause} title="Pause" />
-                <Button title="Zoom buttons" />
+                <Button style={styles.sideHeaderButtons} title="Zoom buttons" />
             </View>
             {children}
         </View>
