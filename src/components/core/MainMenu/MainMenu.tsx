@@ -3,8 +3,8 @@ import { Text, View } from 'react-native';
 
 import { styles } from './MainMenu.styles';
 import { MenuOption } from './MenuOption';
-import { GameView } from '../../common/GameView';
 
+import { DuneUprisingMain } from '@/components/dune-uprising';
 import { AppMode } from '@/models';
 
 interface ComponentProps {}
@@ -12,14 +12,8 @@ interface ComponentProps {}
 export const MainMenu = (props: ComponentProps) => {
     const [mode, setMode] = React.useState<AppMode>('MainMenu');
 
-    return (
-        <GameView onPressBack={() => undefined}>
-            <MenuOption appMode="MainMenu" onPress={() => setMode('MainMenu')} />
-        </GameView>
-    );
-
     if (mode === 'DuneUprising') {
-        return <MenuOption appMode="MainMenu" onPress={() => setMode('MainMenu')} />;
+        return <DuneUprisingMain />;
     }
 
     // Default render being MainMenu
