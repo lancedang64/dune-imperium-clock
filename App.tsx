@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { MainMenu } from '@/components/MainMenu';
+import { BACKGROUND_COLOR } from '@/styling';
 
 export default function App() {
     return (
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
         flex: 1,
         display: 'flex',
         flexDirection: 'column',
-        backgroundColor: '#fff',
+        backgroundColor: BACKGROUND_COLOR,
         alignItems: 'center',
         justifyContent: 'center',
     },

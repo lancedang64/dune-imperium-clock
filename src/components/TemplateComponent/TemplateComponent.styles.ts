@@ -1,8 +1,10 @@
 import { StyleSheet } from 'react-native';
 
+import { BACKGROUND_COLOR } from '@/styling';
+
 export const styles = StyleSheet.create({
     component: {
-        backgroundColor: '#fff',
+        backgroundColor: BACKGROUND_COLOR,
         alignItems: 'center',
         justifyContent: 'center',
         borderColor: 'black',

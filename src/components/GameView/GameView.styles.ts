@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native';
 
+import { BACKGROUND_COLOR } from '@/styling';
+
 export const styles = StyleSheet.create({
     component: {
         height: '100%',
@@ -7,7 +9,7 @@ export const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        backgroundColor: '#fff',
+        backgroundColor: BACKGROUND_COLOR,
         padding: 30,
     },
 });
