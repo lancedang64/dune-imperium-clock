@@ -3,10 +3,8 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { MainMenu } from '@/components/MainMenu';
-// import { AppMode } from '@/models';
 
 export default function App() {
-    // const [mode, setMode] = React.useState<AppMode>('MainMenu');
     return (
         <View style={styles.container}>
             <StatusBar style="auto" />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Pressable } from 'react-native';
 
 import { styles } from './MenuOption.styles';
 
@@ -12,8 +12,13 @@ const MENU_OPTION_DICT: Record<AppMode, string> = {
 
 interface ComponentProps {
     appMode: AppMode;
+    onPress: () => void;
 }
 
-export const MenuOption = ({ appMode }: ComponentProps) => {
-    return <View style={styles.component}>{MENU_OPTION_DICT[appMode]}</View>;
+export const MenuOption = ({ appMode, onPress }: ComponentProps) => {
+    return (
+        <Pressable style={styles.component} onPress={onPress}>
+            {MENU_OPTION_DICT[appMode]}
+        </Pressable>
+    );
 };
