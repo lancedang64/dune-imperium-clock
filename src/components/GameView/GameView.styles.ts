@@ -12,4 +12,10 @@ export const styles = StyleSheet.create({
         backgroundColor: BACKGROUND_COLOR,
         padding: 30,
     },
+    header: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        width: '100%',
+    },
 });
